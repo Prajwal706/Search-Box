@@ -1,0 +1,92 @@
+*{
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+html{
+ scroll-behavior: smooth;
+}
+
+body{
+height: 100vh;
+width: 100%;
+background: url("blue.jpg");
+/* overflow-x: hidden; */
+background-repeat: no-repeat;
+background-position: center;
+background-size: cover;
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+ }
+.Heading{
+ width: 100%;
+ justify-content: center;
+ align-items: center;
+ text-align: center;
+ margin-top: 10%;
+ color: brown;
+ border: none
+}
+
+span.one{
+ color:darkblue;
+}
+span.two{
+ color: darkgreen;
+}
+.Searching {
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   background-position: center;
+     }
+   .search-box{
+   width: 25%;
+   background: rgba(255, 255, 255, 0.5);
+   display: flex;
+   text-align: center;
+   margin-top: 12%;
+   align-items: center;
+   justify-content: center;
+   border-radius: 50px;
+   padding: 5px 5px;
+   border: solid 1px;
+     }
+     form {
+   display: flex;
+   align-items: center;
+     }
+     
+     input[type=text] {
+   
+   font-size: 17px;
+   border: none;
+   border-width: 0px;
+   width: 100%;
+   /* margin-top: 1%; */
+   padding: 10px 0px 10px 10px;
+   margin-left: 0px;
+   cursor: pointer;
+   border-radius: 50px;
+   background:transparent;
+     }
+     
+     button[type=submit] {
+   padding: 10px;
+   background: rgb(255, 255, 255);
+   font-size: 17px;
+   border: none;
+   cursor: pointer;
+   border-radius: 30px;
+   margin-left: 1%;
+     }
+     
+     button[type=submit]:hover {
+   background: rgb(239, 242, 242);
+     }
+
+  ::placeholder{
+   color: rgb(243, 236, 236);
+   text-shadow: 1.5px 1.5px 1.5px rgb(3, 0, 4);
+   font-size: 1.2rem;
+   opacity: 1;
+     }
